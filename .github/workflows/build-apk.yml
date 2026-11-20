@@ -27,7 +27,7 @@ jobs:
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-
+    - uses: oven-sh/setup-bun@v1 —
       - name: Install dependencies and build web bundle
         run: |
           npm Instal
