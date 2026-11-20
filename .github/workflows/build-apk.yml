@@ -7,9 +7,9 @@ on:
 
 jobs:
   build-debug-apk:
-     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-       steps:
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -27,10 +27,12 @@ jobs:
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-    - uses: oven-sh/setup-bun@v1 —
+
+      - uses: oven-sh/setup-bun@v1
+
       - name: Install dependencies and build web bundle
         run: |
-          npm Instal
+          npm install
           npm run build
           npx cap sync android
 
