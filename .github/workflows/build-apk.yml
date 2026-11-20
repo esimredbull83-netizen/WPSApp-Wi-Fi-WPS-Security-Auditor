@@ -30,7 +30,7 @@ jobs:
 
       - name: Install dependencies and build web bundle
         run: |
-          npm ci
+          npm Instal
           npm run build
           npx cap sync android
 
