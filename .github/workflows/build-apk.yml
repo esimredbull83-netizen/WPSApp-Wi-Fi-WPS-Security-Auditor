@@ -30,6 +30,9 @@ jobs:
 
       - uses: oven-sh/setup-bun@v1
 
+      - name: Ensure lock file exists
+        run: npm install --package-lock-only || npm install
+
       - name: Install dependencies and build web bundle
         run: |
           npm install
