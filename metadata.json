@@ -1,0 +1,6 @@
+{
+  "name": "WPSApp — Wi-Fi & WPS Security Auditor",
+  "description": "Interactive Wi-Fi & WPS security auditing workbench with PIN algorithm calculators, device discovery, and channel spectrum analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,9 @@
+{
+	"appId": "com.wpsapp.auditor",
+	"appName": "WPSApp",
+	"webDir": "dist",
+	"android": {
+		"backgroundColor": "#0B192C",
+		"allowMixedContent": false
+	}
+}
